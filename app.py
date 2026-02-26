@@ -19,7 +19,7 @@ try:
 except:
     pass
 
-st.subheader("Una pequeña Fábula.")
+st.subheader("Cuentico")
 
 st.write(' Una adolescente está cuidando por primera vez a unos niños en una casa enorme y lujosa. Acuesta a los niños en el piso de arriba, y, cuando apenas se ha sentado delante de la televisión, suena el teléfono.' 
          ' A juzgar por su voz, el que llama es un hombre. Jadea, ríe de forma amenazadora y pregunta: “¿Has subido a ver a los niños?”.'  
