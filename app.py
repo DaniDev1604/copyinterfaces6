@@ -8,7 +8,7 @@ from PIL import Image
 import base64
 
 st.title("Conversión de Texto a Audio")
-image = Image.open('gato_raton.png')
+image = Image.open('telefono.jpeg')
 st.image(image, width=350)
 with st.sidebar:
     st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
@@ -20,14 +20,14 @@ except:
     pass
 
 st.subheader("Una pequeña Fábula.")
-st.write('¡Ay! -dijo el ratón-. El mundo se hace cada día más pequeño. Al principio era tan grande que le tenía miedo. '  
-         ' Corría y corría y por cierto que me alegraba ver esos muros, a diestra y siniestra, en la distancia. ' 
-         ' Pero esas paredes se estrechan tan rápido que me encuentro en el último cuarto y ahí en el rincón está '  
-         ' la trampa sobre la cual debo pasar. Todo lo que debes hacer es cambiar de rumbo dijo el gato...y se lo comió. ' 
-         '  '
-         ' Franz Kafka.'
-        
-        )
+
+st.write(' Una adolescente está cuidando por primera vez a unos niños en una casa enorme y lujosa. Acuesta a los niños en el piso de arriba, y, cuando apenas se ha sentado delante de la televisión, suena el teléfono.' 
+         ' A juzgar por su voz, el que llama es un hombre. Jadea, ríe de forma amenazadora y pregunta: “¿Has subido a ver a los niños?”.'  
+         ' La chica cuelga convencido de que sus amigos le están gastando una broma, pero el hombre vuelve a llamar y pregunta de nuevo: “¿Has subido a ver a los niños?”.' 
+         ' Ella cuelga a toda prisa, pero el hombre llama por tercera vez, y esta vez dice: “¡Ya me he ocupado de los niños, ahora voy a por ti!”.'
+         ' La chica está verdaderamente asustada. Llama a la policía y denuncia las llamadas amenazadoras. La policía pide que, si vuelve a llamar, intente distraerle al teléfono para que les de tiempo a localizar la llamada.'
+         ' Como era de esperar, el hombre llama de nuevo a los pocos minutos. La chica le suplica que la deje en paz, y así le entretiene. Él acaba por colgar. De repente, el teléfono suena de nuevo, y a cada timbrazo el tono es más alto y más estridente.'
+         ' En esta ocasión, es la policía, que le da una orden urgente: “¡Salga de la casa inmediatamente! ¡Las llamadas vienen del piso de arriba!”.')
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
 text = st.text_area("Ingrese El texto a escuchar.")
